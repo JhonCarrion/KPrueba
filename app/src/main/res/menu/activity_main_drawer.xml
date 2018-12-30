@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/ubicaci_n">
+        <menu>
+            <item
+                android:id="@+id/nav_mapa"
+                android:icon="@drawable/ic_place_black_24dp"
+                android:title="@string/mapa" />
+            <item
+                android:id="@+id/nav_gps"
+                android:icon="@drawable/ic_pin_drop_black_24dp"
+                android:title="@string/gps" />
+        </menu>
+    </item>
+    <item android:title="@string/servicios_web">
+        <menu>
+            <item
+                android:id="@+id/nav_clima"
+                android:icon="@drawable/ic_ac_unit_black_24dp"
+                android:title="@string/clima" />
+        </menu>
+    </item>
+    <item android:title="@string/otros">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_contactos"
+                    android:icon="@drawable/ic_assignment_ind_black_24dp"
+                    android:title="@string/contactos" />
+                <item
+                    android:id="@+id/nav_sockets"
+                    android:icon="@drawable/ic_chat_black_24dp"
+                    android:title="@string/sockets" />
+            </group>
+        </menu>
+    </item>
+</menu>

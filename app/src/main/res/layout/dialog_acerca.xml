@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/lbl_A_Cerca"
+        android:text="@string/aplicaci_n_de_prueba_para_la_empresa_kradac"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/lbl_A_Cerca2"
+        android:text="@string/by_author"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/lbl_A_Cerca3"
+        android:text="@string/phone_author"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/btn_acerca_aceptar"
+            android:text="@string/btnaceptar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+</LinearLayout>
+</RelativeLayout>

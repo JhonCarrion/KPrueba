@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">KPrueba</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Alex Carrión</string>
+    <string name="nav_header_subtitle">djheks.jhon@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_sobre">A cerca de</string>
+    <string name="ubicaci_n">Ubicación</string>
+    <string name="mapa">Mapa</string>
+    <string name="gps">GPS</string>
+    <string name="servicios_web">Servicios Web</string>
+    <string name="clima">Clima</string>
+    <string name="otros">Otros</string>
+    <string name="contactos">Contactos</string>
+    <string name="sockets">Sockets</string>
+    <string name="toast_settings">Caja de Herramientas</string>
+    <string name="aplicaci_n_de_prueba_para_la_empresa_kradac">Aplicación de Prueba para la empresa KRADAC</string>
+    <string name="by_author">by Jhon A. Carrión P.</string>
+    <string name="phone_author">0987605182</string>
+    <string name="btnaceptar">Aceptar</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- SOCKET.IO -->
+    <string name="action_leave">Salir</string>
+    <string name="action_send">Enviar</string>
+    <string name="prompt_message">Mensaje</string>
+
+    <string name="connect">Conectado</string>
+    <string name="disconnect">Desconectado, por favor revise su conexión a internet</string>
+    <string name="error_connect">Failed to connect</string>
+
+    <!-- messages -->
+    <string name="message_welcome">Bienvenido al Chat de Socket.IO –</string>
+    <plurals name="message_participants">
+        <item quantity="one">there\'s %d participant</item>
+        <item quantity="other">there are %d participants</item>
+    </plurals>
+    <string name="message_user_joined">%s joined</string>
+    <string name="message_user_left">%s left</string>
+    <string name="user_action_typing">Escribiendo...</string>
+
+</resources>
